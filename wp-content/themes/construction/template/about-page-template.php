@@ -16,9 +16,7 @@ get_header(); ?>
 			<div class="wrapper">
 				<div class="full-width" style="background-image: url(<?php the_field('home_feature_background_image'); ?>);">
 				<div class="center">
-					<div class="row">
-						<img src="<?php the_field('about_page_image'); ?>"/>
-					</div>
+					<div class="row" style="background-image: url(<?php the_field('about_page_image'); ?>);">
 
 					<div class="row center">
 						<h1>About Us</h1>

@@ -129,3 +129,21 @@ require get_template_directory() . '/inc/customizer.php';
  * Load Jetpack compatibility file.
  */
 require get_template_directory() . '/inc/jetpack.php';
+
+/**
+ * Register Post Type.
+ */
+add_action( 'init', 'create_post_type' );
+function create_post_type() {
+    register_post_type( 'co_project',
+        array(
+            'labels' => array(
+                'name' => __( 'Projects' ),
+                'singular_name' => __( 'Project' )
+            ),
+            'taxonomies' => array('category'),
+            'public' => true,
+            'has_archive' => true,
+        )
+    );
+}
