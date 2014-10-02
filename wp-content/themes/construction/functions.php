@@ -95,6 +95,8 @@ add_action( 'widgets_init', 'construction_widgets_init' );
 function construction_scripts() {
 	wp_enqueue_style( 'construction-style', get_stylesheet_uri() );
 
+	wp_enqueue_style( 'yoursite-genericons', get_template_directory_uri() . '/fonts/genericons/genericons.css'  );
+
 	wp_enqueue_script( 'construction-navigation', get_template_directory_uri() . '/js/navigation.js', array(), '20120206', true );
 
 	wp_enqueue_script( 'construction-skip-link-focus-fix', get_template_directory_uri() . '/js/skip-link-focus-fix.js', array(), '20130115', true );
