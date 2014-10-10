@@ -12,21 +12,24 @@ get_header(); ?>
 
 		<?php while ( have_posts() ) : the_post(); ?>
 
-			<?php get_template_part( 'content', 'single' ); ?>
+			<!-- Our Code -->
 
-			<?php construction_post_nav(); ?>
+			<h2><?php the_title(); ?></h2>
 			
-			<?php
-				// If comments are open or we have at least one comment, load up the comment template
-				if ( comments_open() || '0' != get_comments_number() ) :
-					comments_template();
-				endif;
-			?>
+			<?php echo get_the_category_list( ', '); ?>
+
+			dfsads
+
+			<!-- End of Our Code -->
+
+			
+
+			
 
 		<?php endwhile; // end of the loop. ?>
 
 		</main><!-- #main -->
 	</div><!-- #primary -->
 
-<?php get_sidebar(); ?>
+
 <?php get_footer(); ?>

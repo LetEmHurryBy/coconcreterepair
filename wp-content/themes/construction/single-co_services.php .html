@@ -12,10 +12,18 @@ get_header(); ?>
 
 		<?php while ( have_posts() ) : the_post(); ?>
 
-			<?php get_template_part( 'content', 'single' ); ?>
+			<!-- Our Code -->
+
+			<h2><?php the_title(); ?></h2>
+			
+			<?php echo get_the_category_list( ', '); ?>
+
+			
+
+			<!-- End of Our Code -->
 
 			<?php construction_post_nav(); ?>
-			
+
 			<?php
 				// If comments are open or we have at least one comment, load up the comment template
 				if ( comments_open() || '0' != get_comments_number() ) :

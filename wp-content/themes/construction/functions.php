@@ -146,6 +146,19 @@ function create_post_type() {
             'taxonomies' => array('category'),
             'public' => true,
             'has_archive' => true,
+            'rewrite' => array('slug' => 'projects')
         )
     );
+    register_post_type( 'co_services',
+    	array(
+    		'labels' => array(
+    			'name' => __( 'Services' ),
+    			'singular_name' => __( 'Work' )
+    			),
+    		'taxonomies' => array('category'),
+    		'public' => true,
+    		'has_archive' => true,
+    		'rewrite' => array('slug' => 'services')
+    	)
+	);
 }

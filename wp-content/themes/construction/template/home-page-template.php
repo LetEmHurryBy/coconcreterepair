@@ -24,8 +24,8 @@ get_header(); ?>
 			<?php
 			// The Arguments
 			$args = array( 
-			    'post_type' => 'product', 
-			    'posts_per_page' => 10 
+			    'post_type' => 'co_services', 
+			    'posts_per_page' => 3 
 			);
 			// Start Loop
 			$loop = new WP_Query( $args );
@@ -33,8 +33,11 @@ get_header(); ?>
 			    // The Content
 			?>
 			<div class="column third">
-				<img src="<php the_field('service_image'); ?>" />
-				<h3><?php the_field('service_headline'); ?></h3>
+				<?php 
+					$icon = get_field('service_icon');
+					get_template_part('images/icons/icon', $icon . '.svg');
+				?>	
+				<h3><?php the_field('service_icon'); ?></h3>
 				<p><?php the_field('service_description'); ?></p>
 			</div>
 
