@@ -1,8 +1,8 @@
 <?php
 /**
-*Template Name: Home Page
+*Template Name: Services Page
 *
-* @package _s
+* @package Construction
 */
 
 

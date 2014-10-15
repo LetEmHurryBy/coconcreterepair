@@ -2,7 +2,7 @@
 /**
 *Template Name: About Page
 *
-* @package _s
+* @package Construction
 */
 
 
@@ -16,48 +16,42 @@ get_header(); ?>
 			
 
 				<div class="wrapper">
-					<div class="row" style="background-image: url(<?php the_field('about_page_image'); ?>);" >
-
+					<div class="feature-image">
+						<div class="row" style="background-image: url(<?php the_field('about_page_image'); ?>);" >
+						</div>
+					</div>
 					<div class="row">
-						<h1>About Us</h1>
-						<h2><?php the_field('about_page_slogan'); ?><h2>
+						<center><h1><?php the_field('about_us_section_title'); ?></h1></center>
+						<center><h2><?php the_field('about_page_slogan'); ?></h2></center>
 
 					</div>
 
-
 					<div class="row">
-				    	<div class="column half"><h2><?php bloginfo('name'); ?></h2><p><?php the_field('about_page_short_description'); ?></p><h2><  </h2></div>
+				    	<p><?php the_field('about_page_short_description'); ?></p>
+			    	</div>
 						
-						<div class="column half">Vivamus
-						sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Donec sed odio
-						dui. Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas
-						eget quam.  Donec ullamcorper nulla non metus auctor fringilla. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Integer posuere erat a ante venenatis dapibus posuere velit aliquet.</div>
-					</div>
-
-
 					<div class="row">
-						<h1>Mollis Commodo</h1>
-						<h2>Fermentum Purus Vestibulum Justo Vulputate</h2>
-					</div>
-
-				    <div class="row">
-				    	<div class="column half">Vivamus sagittis
-						lacus vel augue laoreet rutrum faucibus dolor auctor. Donec sed odio
-						dui. Donec sed odio dui. Cras justo odio, dapibus ac facilisis in,
-						egestas eget quam.  Donec ullamcorper nulla non metus auctor fringilla. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Integer posuere erat a ante venenatis dapibus posuere velit aliquet.</div>
-						
-						<div class="column half"><img src="images/ownerPicture.jpg"/></div>
+						<center><h1><?php the_field('about_page_profile_section_title'); ?></h1></center>
+						<center><h2><?php the_field('about_page_profile_section_slogan'); ?></h2></center>
 					</div>
 
 					<div class="row">
-						<h1>Mollis Commodo</h1>
-						<h2>Fermentum Purus Vestibulum Justo Vulputate</h2>
+						<div class="column-half">
+							<p><?php the_field('about_page_profile_description');?></p>
+						</div>
+						<div class="column-half">
+							<img src="<?php the_field('about_page_profile_image'); ?>">
+						</div>
 					</div>
 
-				    <div class="row">
-				    	<div class="column half"><img class="map" src="images/mapPlaceholder.jpg"/></div>
+					<div class="row">
+				    	<div class="column-half">
+				    		<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3141726.993293894!2d-104.9847179!3d39.737567!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x876b80aa231f17cf%3A0x118ef4f8278a36d6!2sDenver%2C+CO!5e0!3m2!1sen!2sus!4v1413250019297" width="600" height="450" frameborder="0" style="border:0"></iframe>
+				    	</div>
 						
-						<div class="column half">CONTACT PHP HERE<?php include 'contact.php'; ?></div>
+						<div class="column-half">
+							CONTACT ME INPUT HERE
+						</div>
 					</div>
 				</div>
 
