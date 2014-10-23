@@ -1,0 +1,88 @@
+code that I want to save
+
+from services page, trying to make a toggle so need to do everything separate
+
+
+<!-- Services -->
+			<div class="row">
+			<?php
+			// The Arguments
+			$args = array( 
+			    'post_type' => 'co_services', 
+			    'posts_per_page' => 3 
+			);
+			// Start Loop
+			$loop = new WP_Query( $args );
+			while ( $loop->have_posts() ) : $loop->the_post();
+			    // The Content
+			?>
+			<div class="column-third">
+				<center>
+					<?php 
+						$icon = get_field('service_icon');
+						get_template_part('images/icons/icon', $icon . '.svg');
+					?>	
+					<h3><?php the_field('service_icon'); ?></h3>
+					<p><?php the_field('service_description'); ?></p>
+				</center>
+			</div>
+
+			<?php
+			// End Loop
+			endwhile;
+			?>
+			<?php wp_reset_postdata(); ?>
+			</div>
+
+
+
+<!-- to hide the logo -->
+
+<?php
+
+if ( !is_front_page()){
+	your <img>
+} else{}
+
+?>
+
+
+<!-- banner slider -->
+
+<div class="banner">
+    <ul>
+
+						<?php
+						// The Arguments
+						$args = array(
+										'post_type' => 'gschool_services',
+										'order' => ASC
+						);
+						// Start Loop
+						$loop = new WP_Query( $args );
+						while ( $loop->have_posts() ) : $loop->the_post();
+						?>
+        <li style="background-image: url(<?php the_field('home_feature_background_image'); ?>);">
+									<h2><?php the_title(); ?></h2>
+									<p><?php the_field('service_description'); ?></p>
+								</li>
+				<?php
+					// Reset Loop
+					endwhile;
+					wp_reset_postdata();
+				?>
+    </ul>
+</div>
+
+
+
+notes for class
+   start using codepen
+   download code box for code
+   download sublime text 3 and upload sass colors 
+   look at attributing things to people in your code.
+   look at ftploy
+   check out one password
+   check out transmit for ftp
+   
+

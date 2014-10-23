@@ -23,14 +23,20 @@
 	<a class="skip-link screen-reader-text" href="#content"><?php _e( 'Skip to content', 'construction' ); ?></a>
 
 	<header id="masthead" class="site-header" role="banner">
+		<center>
 		<div class="site-branding">
-			<a class="site-title"href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><img src="<?php bloginfo('template_directory'); ?>/images/coatingsWhite.png" alt="logo"/></a>
+			<a class="site-title"href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home">
+
+			<img src="<?php bloginfo('template_directory'); ?>/images/coatingsWhite.png" alt="logo"/></a>
+		
 		</div>
 
 		<nav id="site-navigation" class="main-navigation" role="navigation">
 			<button class="menu-toggle"><?php _e( 'Primary Menu', 'construction' ); ?></button>
 			<?php wp_nav_menu( array( 'theme_location' => 'primary' ) ); ?>
-		</nav><!-- #site-navigation -->
+		</nav>
+		</center>
+		<!-- #site-navigation -->
 	</header><!-- #masthead -->
 
 	<div id="content" class="site-content">

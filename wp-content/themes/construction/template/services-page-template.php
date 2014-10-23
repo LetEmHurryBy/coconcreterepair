@@ -11,6 +11,9 @@ get_header(); ?>
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main" role="main">
 
+
+
+
 			<?php while ( have_posts() ) : the_post(); ?>
 
 			<!-- Feature Image -->
@@ -32,13 +35,19 @@ get_header(); ?>
 			while ( $loop->have_posts() ) : $loop->the_post();
 			    // The Content
 			?>
-			<div class="column third">
-				<?php 
-					$icon = get_field('service_icon');
-					get_template_part('images/icons/icon', $icon . '.svg');
-				?>	
-				<h3><?php the_field('service_icon'); ?></h3>
-				<p><?php the_field('service_description'); ?></p>
+
+
+			<div class="column-third">
+				<center>
+
+					<?php 
+						$icon = get_field('service_icon');
+						get_template_part('images/icons/icon', $icon . '.svg');
+					?>	
+					
+					<h3><?php the_field('service_icon'); ?></h3>
+					<p><?php the_field('service_description'); ?></p>
+				</center>
 			</div>
 
 			<?php
@@ -47,6 +56,11 @@ get_header(); ?>
 			?>
 			<?php wp_reset_postdata(); ?>
 			</div>
+
+			<!-- buttons underneath services -->
+			
+
+			<!-- end of buttons underneath -->
 
 			<?php endwhile; // end of the loop. ?>
 
