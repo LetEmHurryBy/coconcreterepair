@@ -25,9 +25,9 @@
 	<header id="masthead" class="site-header" role="banner">
 		<center>
 		<div class="site-branding">
-			<a class="site-title"href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home">
+			
+				<a class="site-title"href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><img src="<?php bloginfo('template_directory'); ?>/images/coatingsWhite.png" alt="logo"/></a>
 
-			<img src="<?php bloginfo('template_directory'); ?>/images/coatingsWhite.png" alt="logo"/></a>
 		
 		</div>
 

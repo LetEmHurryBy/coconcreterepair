@@ -40,13 +40,14 @@ get_header(); ?>
 							<p><?php the_field('about_page_profile_description');?></p>
 						</div>
 						<div class="column-half">
-							<img src="<?php the_field('about_page_profile_image'); ?>">
+							<img src="<?php the_field('about_page_profile_image'); ?>" width="400" height="400">;
 						</div>
 					</div>
 
 					<div class="row">
 				    	<div class="column-half">
 				    		<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3141726.993293894!2d-104.9847179!3d39.737567!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x876b80aa231f17cf%3A0x118ef4f8278a36d6!2sDenver%2C+CO!5e0!3m2!1sen!2sus!4v1413250019297" width="600" height="550" frameborder="0" style="border:0"></iframe>
+				    		<p>Devner, CO</p>
 				    	</div>
 						
 						<div class="column-half">
