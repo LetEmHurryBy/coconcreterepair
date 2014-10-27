@@ -711,7 +711,29 @@ object {
 --------------------------------------------------------------*/
 .banner {
   position: relative;
-  overflow: auto; }
+  overflow: auto;
+  z-index: -1; }
   .banner ul li {
     float: left;
-    list-style: none; }
+    list-style: none;
+    background-repeat: no-repeat; }
+
+#banner-container {
+  width: 100%;
+  float: left; }
+
+.full-width {
+  width: 100%; }
+
+.home-feat-logo {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  z-index: 1; }
+
+.section-border {
+  display: block;
+  margin-bottom: 0.5em;
+  border-bottom: 10px; }

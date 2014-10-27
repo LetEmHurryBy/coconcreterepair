@@ -24,12 +24,20 @@
 
 	<header id="masthead" class="site-header" role="banner">
 		<center>
-		<div class="site-branding">
+		<?php
+			
+			if (!is_front_page())
+		
+		{?>
+			<div class="site-branding">
 			
 				<a class="site-title"href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><img src="<?php bloginfo('template_directory'); ?>/images/coatingsWhite.png" alt="logo"/></a>
 
+			</div>
+
+		<?php } else { ?>
 		
-		</div>
+		<?php } ?>
 
 		<nav id="site-navigation" class="main-navigation" role="navigation">
 			<button class="menu-toggle"><?php _e( 'Primary Menu', 'construction' ); ?></button>
