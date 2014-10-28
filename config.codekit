@@ -5894,6 +5894,17 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
+	"\/wp-content\/themes\/construction\/js\/jquery.cycle2.min.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/themes\/construction\/js\/jquery.cycle2.min.js",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/construction\/js\/min\/jquery.cycle2.min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
 	"\/wp-content\/themes\/construction\/js\/navigation.js": {
 		"fileType": 64,
 		"ignore": 0,
@@ -6659,6 +6670,15 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/wp-content\/themes\/construction\/template\/about-page-template.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/themes\/construction\/template\/code that I want to save.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/themes\/construction\/template\/code that I want to save.php",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -8180,6 +8200,50 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/wp-content\/uploads\/2014\/09\/About-page-image-1024x576.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 78119,
+		"inputAbbreviatedPath": "\/wp-content\/uploads\/2014\/09\/About-page-image-1024x576.jpg",
+		"outputAbbreviatedPath": "\/wp-content\/uploads\/2014\/09\/About-page-image-1024x576.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp-content\/uploads\/2014\/09\/About-page-image-150x150.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 6631,
+		"inputAbbreviatedPath": "\/wp-content\/uploads\/2014\/09\/About-page-image-150x150.jpg",
+		"outputAbbreviatedPath": "\/wp-content\/uploads\/2014\/09\/About-page-image-150x150.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp-content\/uploads\/2014\/09\/About-page-image-300x168.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 13734,
+		"inputAbbreviatedPath": "\/wp-content\/uploads\/2014\/09\/About-page-image-300x168.jpg",
+		"outputAbbreviatedPath": "\/wp-content\/uploads\/2014\/09\/About-page-image-300x168.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp-content\/uploads\/2014\/09\/About-page-image.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 553223,
+		"inputAbbreviatedPath": "\/wp-content\/uploads\/2014\/09\/About-page-image.jpg",
+		"outputAbbreviatedPath": "\/wp-content\/uploads\/2014\/09\/About-page-image.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/wp-content\/uploads\/2014\/09\/coatingsWhite-150x150.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -8275,6 +8339,270 @@
 		"initialSize": 25665,
 		"inputAbbreviatedPath": "\/wp-content\/uploads\/2014\/09\/profile-picture.jpg",
 		"outputAbbreviatedPath": "\/wp-content\/uploads\/2014\/09\/profile-picture.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp-content\/uploads\/2014\/09\/ResizeSlide1DSC_0435-2-1024x512.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 149068,
+		"inputAbbreviatedPath": "\/wp-content\/uploads\/2014\/09\/ResizeSlide1DSC_0435-2-1024x512.jpg",
+		"outputAbbreviatedPath": "\/wp-content\/uploads\/2014\/09\/ResizeSlide1DSC_0435-2-1024x512.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp-content\/uploads\/2014\/09\/ResizeSlide1DSC_0435-2-150x150.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 11453,
+		"inputAbbreviatedPath": "\/wp-content\/uploads\/2014\/09\/ResizeSlide1DSC_0435-2-150x150.jpg",
+		"outputAbbreviatedPath": "\/wp-content\/uploads\/2014\/09\/ResizeSlide1DSC_0435-2-150x150.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp-content\/uploads\/2014\/09\/ResizeSlide1DSC_0435-2-300x150.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 20043,
+		"inputAbbreviatedPath": "\/wp-content\/uploads\/2014\/09\/ResizeSlide1DSC_0435-2-300x150.jpg",
+		"outputAbbreviatedPath": "\/wp-content\/uploads\/2014\/09\/ResizeSlide1DSC_0435-2-300x150.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp-content\/uploads\/2014\/09\/ResizeSlide1DSC_0435-2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 781198,
+		"inputAbbreviatedPath": "\/wp-content\/uploads\/2014\/09\/ResizeSlide1DSC_0435-2.jpg",
+		"outputAbbreviatedPath": "\/wp-content\/uploads\/2014\/09\/ResizeSlide1DSC_0435-2.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp-content\/uploads\/2014\/09\/ResizeSlide2Summer-2011-046-1024x512.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 45056,
+		"inputAbbreviatedPath": "\/wp-content\/uploads\/2014\/09\/ResizeSlide2Summer-2011-046-1024x512.jpg",
+		"outputAbbreviatedPath": "\/wp-content\/uploads\/2014\/09\/ResizeSlide2Summer-2011-046-1024x512.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp-content\/uploads\/2014\/09\/ResizeSlide2Summer-2011-046-150x150.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 6344,
+		"inputAbbreviatedPath": "\/wp-content\/uploads\/2014\/09\/ResizeSlide2Summer-2011-046-150x150.jpg",
+		"outputAbbreviatedPath": "\/wp-content\/uploads\/2014\/09\/ResizeSlide2Summer-2011-046-150x150.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp-content\/uploads\/2014\/09\/ResizeSlide2Summer-2011-046-300x150.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 12012,
+		"inputAbbreviatedPath": "\/wp-content\/uploads\/2014\/09\/ResizeSlide2Summer-2011-046-300x150.jpg",
+		"outputAbbreviatedPath": "\/wp-content\/uploads\/2014\/09\/ResizeSlide2Summer-2011-046-300x150.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp-content\/uploads\/2014\/09\/ResizeSlide2Summer-2011-046.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 595631,
+		"inputAbbreviatedPath": "\/wp-content\/uploads\/2014\/09\/ResizeSlide2Summer-2011-046.jpg",
+		"outputAbbreviatedPath": "\/wp-content\/uploads\/2014\/09\/ResizeSlide2Summer-2011-046.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp-content\/uploads\/2014\/09\/Resizeslide3firedept-1024x512.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 111629,
+		"inputAbbreviatedPath": "\/wp-content\/uploads\/2014\/09\/Resizeslide3firedept-1024x512.jpg",
+		"outputAbbreviatedPath": "\/wp-content\/uploads\/2014\/09\/Resizeslide3firedept-1024x512.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp-content\/uploads\/2014\/09\/Resizeslide3firedept-150x150.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 6900,
+		"inputAbbreviatedPath": "\/wp-content\/uploads\/2014\/09\/Resizeslide3firedept-150x150.jpg",
+		"outputAbbreviatedPath": "\/wp-content\/uploads\/2014\/09\/Resizeslide3firedept-150x150.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp-content\/uploads\/2014\/09\/Resizeslide3firedept-300x150.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 12278,
+		"inputAbbreviatedPath": "\/wp-content\/uploads\/2014\/09\/Resizeslide3firedept-300x150.jpg",
+		"outputAbbreviatedPath": "\/wp-content\/uploads\/2014\/09\/Resizeslide3firedept-300x150.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp-content\/uploads\/2014\/09\/Resizeslide3firedept.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 648807,
+		"inputAbbreviatedPath": "\/wp-content\/uploads\/2014\/09\/Resizeslide3firedept.jpg",
+		"outputAbbreviatedPath": "\/wp-content\/uploads\/2014\/09\/Resizeslide3firedept.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp-content\/uploads\/2014\/09\/ResizeSlide4d2-1024x512.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 82706,
+		"inputAbbreviatedPath": "\/wp-content\/uploads\/2014\/09\/ResizeSlide4d2-1024x512.jpg",
+		"outputAbbreviatedPath": "\/wp-content\/uploads\/2014\/09\/ResizeSlide4d2-1024x512.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp-content\/uploads\/2014\/09\/ResizeSlide4d2-150x150.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 6443,
+		"inputAbbreviatedPath": "\/wp-content\/uploads\/2014\/09\/ResizeSlide4d2-150x150.jpg",
+		"outputAbbreviatedPath": "\/wp-content\/uploads\/2014\/09\/ResizeSlide4d2-150x150.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp-content\/uploads\/2014\/09\/ResizeSlide4d2-300x150.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 11833,
+		"inputAbbreviatedPath": "\/wp-content\/uploads\/2014\/09\/ResizeSlide4d2-300x150.jpg",
+		"outputAbbreviatedPath": "\/wp-content\/uploads\/2014\/09\/ResizeSlide4d2-300x150.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp-content\/uploads\/2014\/09\/ResizeSlide4d2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 421223,
+		"inputAbbreviatedPath": "\/wp-content\/uploads\/2014\/09\/ResizeSlide4d2.jpg",
+		"outputAbbreviatedPath": "\/wp-content\/uploads\/2014\/09\/ResizeSlide4d2.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp-content\/uploads\/2014\/09\/ResizeSlide5tuscan-slate-gray-1024x512.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 124089,
+		"inputAbbreviatedPath": "\/wp-content\/uploads\/2014\/09\/ResizeSlide5tuscan-slate-gray-1024x512.jpg",
+		"outputAbbreviatedPath": "\/wp-content\/uploads\/2014\/09\/ResizeSlide5tuscan-slate-gray-1024x512.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp-content\/uploads\/2014\/09\/ResizeSlide5tuscan-slate-gray-150x150.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 9306,
+		"inputAbbreviatedPath": "\/wp-content\/uploads\/2014\/09\/ResizeSlide5tuscan-slate-gray-150x150.jpg",
+		"outputAbbreviatedPath": "\/wp-content\/uploads\/2014\/09\/ResizeSlide5tuscan-slate-gray-150x150.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp-content\/uploads\/2014\/09\/ResizeSlide5tuscan-slate-gray-300x150.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 18590,
+		"inputAbbreviatedPath": "\/wp-content\/uploads\/2014\/09\/ResizeSlide5tuscan-slate-gray-300x150.jpg",
+		"outputAbbreviatedPath": "\/wp-content\/uploads\/2014\/09\/ResizeSlide5tuscan-slate-gray-300x150.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp-content\/uploads\/2014\/09\/ResizeSlide5tuscan-slate-gray.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 528836,
+		"inputAbbreviatedPath": "\/wp-content\/uploads\/2014\/09\/ResizeSlide5tuscan-slate-gray.jpg",
+		"outputAbbreviatedPath": "\/wp-content\/uploads\/2014\/09\/ResizeSlide5tuscan-slate-gray.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp-content\/uploads\/2014\/09\/ResizeSlide6wood-concrete-coating-1024x512.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 90361,
+		"inputAbbreviatedPath": "\/wp-content\/uploads\/2014\/09\/ResizeSlide6wood-concrete-coating-1024x512.jpg",
+		"outputAbbreviatedPath": "\/wp-content\/uploads\/2014\/09\/ResizeSlide6wood-concrete-coating-1024x512.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp-content\/uploads\/2014\/09\/ResizeSlide6wood-concrete-coating-150x150.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 7071,
+		"inputAbbreviatedPath": "\/wp-content\/uploads\/2014\/09\/ResizeSlide6wood-concrete-coating-150x150.jpg",
+		"outputAbbreviatedPath": "\/wp-content\/uploads\/2014\/09\/ResizeSlide6wood-concrete-coating-150x150.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp-content\/uploads\/2014\/09\/ResizeSlide6wood-concrete-coating-300x150.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 13827,
+		"inputAbbreviatedPath": "\/wp-content\/uploads\/2014\/09\/ResizeSlide6wood-concrete-coating-300x150.jpg",
+		"outputAbbreviatedPath": "\/wp-content\/uploads\/2014\/09\/ResizeSlide6wood-concrete-coating-300x150.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp-content\/uploads\/2014\/09\/ResizeSlide6wood-concrete-coating.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 446437,
+		"inputAbbreviatedPath": "\/wp-content\/uploads\/2014\/09\/ResizeSlide6wood-concrete-coating.jpg",
+		"outputAbbreviatedPath": "\/wp-content\/uploads\/2014\/09\/ResizeSlide6wood-concrete-coating.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -12982,6 +13310,12 @@
 			"followForSyntaxChecking": 1,
 			"linkedFileAbbreviatedPath": "\/wp-content\/themes\/construction\/js\/unslider.min.js",
 			"position": 0,
+			"type": 0
+			},
+		{
+			"followForSyntaxChecking": 1,
+			"linkedFileAbbreviatedPath": "\/wp-content\/themes\/construction\/js\/jquery.cycle2.min.js",
+			"position": 1,
 			"type": 0
 			}
 		]
