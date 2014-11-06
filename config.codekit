@@ -5894,6 +5894,17 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
+	"\/wp-content\/themes\/construction\/js\/jquery.cycle2.center.min.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/themes\/construction\/js\/jquery.cycle2.center.min.js",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/construction\/js\/min\/jquery.cycle2.center.min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
 	"\/wp-content\/themes\/construction\/js\/jquery.cycle2.min.js": {
 		"fileType": 64,
 		"ignore": 1,
@@ -6484,7 +6495,7 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 1,
 		"outputStyle": 0,
-		"shouldRunAutoprefixer": 0,
+		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
@@ -13307,7 +13318,7 @@
 "manualImportLinks": {
 	"\/wp-content\/themes\/construction\/js\/scripts.js": [
 		{
-			"followForSyntaxChecking": 1,
+			"followForSyntaxChecking": 0,
 			"linkedFileAbbreviatedPath": "\/wp-content\/themes\/construction\/js\/unslider.min.js",
 			"position": 0,
 			"type": 0
@@ -13316,6 +13327,12 @@
 			"followForSyntaxChecking": 1,
 			"linkedFileAbbreviatedPath": "\/wp-content\/themes\/construction\/js\/jquery.cycle2.min.js",
 			"position": 1,
+			"type": 0
+			},
+		{
+			"followForSyntaxChecking": 1,
+			"linkedFileAbbreviatedPath": "\/wp-content\/themes\/construction\/js\/jquery.cycle2.center.min.js",
+			"position": 2,
 			"type": 0
 			}
 		]

@@ -1,36 +1,39 @@
-.banner {
-	position: relative;
-	overflow: auto;
-	z-index: -1;
 
-	ul {
-		margin: 0;
-		li{
-			float: left;
-			list-style: none;
-			background-repeat:no-repeat;
-		}
-	}
-}
-
-#banner-container{
-	width:100%; 
-	float:left;
-	}
 
 .full-width {
 	width: 100%
 }
 
 
-.home-feat-logo{
-	position:absolute;
-	top: 50%;
-	left: 50%;
-	margin-right: -50%;
-	transform: translate(-50%, -50%);
-	z-index: 1;
+.banner-container{
+	float:left;
+	z-index: -1;
+	position: relative;
+	.home-feat-logo{
+		margin: 0;
+		position:absolute;
+		top: 50%;
+		left: 50%;
+		margin-right: -50%;
+		transform: translate(-50%, -50%);
+		z-index: 101;
+		@include media($tablet) { width: 50%}; 
+		opacity: 0;
+	}
+	.home-feat-logo-bk{
+		margin: 0;
+		position:absolute;
+		top: 50%;
+		left: 50%;
+		margin-right: -50%;
+		transform: translate(-50%, -50%);
+		@include media($tablet) { width: 50%}; 
+	}
 }
+
+
+
+
 
 .section-border { 
     display: block;

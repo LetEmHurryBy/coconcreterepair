@@ -13,9 +13,9 @@
 		<footer id="colophon" class="site-footer" role="contentinfo">
 			
 			<div class="row">
-
+				<nav class="footer-navigation">
 				<?php wp_nav_menu( array( 'theme_location' => 'footer' ) ); ?>
-		
+				</nav>
 			</div>
 
 			<div class="row">
@@ -25,9 +25,9 @@
 			</div>	
 
 			<div class="row">
-				
+				<nav class="social-navigation">
 				<?php wp_nav_menu( array( 'theme_location' => 'social' ) ); ?>
-		
+				</nav>
 			</div>
 
 		</footer><!-- #colophon -->

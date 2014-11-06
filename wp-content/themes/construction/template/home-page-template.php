@@ -17,35 +17,26 @@ get_header(); ?>
 
 				
 				<!-- Slider -->
-			<div class="home-feat-logo">
-				<img src="<?php the_field('home_page_feature_logo'); ?>";>
+			<div class="banner-container">	
+				<div class="home-feat-logo-bk">
+					<img src="<?php the_field('home_page_feature_logo'); ?>";>
+				</div>
+				<div class="home-feat-logo">
+					<img src="<?php the_field('home_page_feature_logo'); ?>";>
+				</div>
+				
+				<div class="cycle-slideshow"
+					data-cycle-speed=1500
+    				data-cycle-timeout=4000
+					>
+
+					<img src="<?php the_field('home_feature_background_image'); ?>"; >
+					<img src="<?php the_field('home_page_slide_two_background_image') ?>";>
+					<img src="<?php the_field('home_page_slide_three_background_image') ?>";>
+				</div>
+
+				
 			</div>
-			<section id="banner-container">	
-			<div class="banner">
-				<ul>
-					<li>
-						<div class="full-width" style="background-image: url(<?php the_field('home_feature_background_image'); ?>);">
-							<div class="home-feat-logo">
-								<img src="<?php the_field('home_page_feature_logo'); ?>";>
-							</div>
-						</div>
-					<li>
-						<div class="full-width" style="background-image: url(<?php the_field('home_page_slide_two_background_image'); ?>);">
-							<div class="home-feat-logo">
-								<img src="<?php the_field('home_page_feature_logo'); ?>";>
-							</div>
-						</div>
-					</li>
-					<li>
-						<div class="full-width" style="background-image: url(<?php the_field('home_page_slide_three_background_image'); ?>);">
-							<div class="home-feat-logo">
-								<img src="<?php the_field('home_page_feature_logo'); ?>";>
-							</div>
-						</div>
-					</li>
-				</ul>
-			</div>
-			</section>
 
 			<?php endwhile; // end of the loop. ?>
 
