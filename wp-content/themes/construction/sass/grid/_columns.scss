@@ -4,6 +4,7 @@
   box-sizing: border-box;
   padding: 0 $grid_padding;
   margin: 0 $grid_gutter 0 0;
+  border: 5px solid red;
 
   &:last-of-type { margin-right: 0; }
 }
@@ -40,7 +41,7 @@
       @include media($tablet) { width: 100%; } 
     }
     &-two-third, &-two-thirds { 
-      @extend .column-#{($grid_base / ($grid_base / 3) * 2)}; 
+      @extend .column-#{($grid_base / ($grid_base / 3)) * 2}; 
       @include media($tablet) { width: 100%; }
     }
   }
