@@ -486,70 +486,43 @@ a {
   text-align: right;
   width: 50%; }
 
-.social-navigation {
-  clear: both;
-  display: block;
-  float: left; }
-  .social-navigation ul {
-    list-style: none;
-    margin: 0;
-    padding-left: 0;
-    width: 100%;
-    text-align: right; }
-    .social-navigation ul ul {
-      box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
-      float: right;
-      position: absolute;
-      top: 1.5em;
-      left: -999em;
-      z-index: 99999; }
-      .social-navigation ul ul ul {
-        left: -999em;
-        top: 0; }
-      .social-navigation ul ul li:hover > ul {
-        left: 100%; }
-      .social-navigation ul ul a {
-        width: 200px; }
-    .social-navigation ul li:hover > ul {
-      left: auto; }
-  .social-navigation li {
+.menu-social-menu-container {
+  display: inline-block;
+  float: right;
+  text-align: right; }
+  .menu-social-menu-container ul {
+    margin: 0; }
+  .menu-social-menu-container li {
     display: inline-block;
-    position: relative; }
-  .social-navigation a {
+    text-align: right;
+    margin-right: 0em; }
+  .menu-social-menu-container a {
     display: block;
     text-decoration: none; }
 
-.footer-navigation {
-  clear: both;
-  display: block;
-  float: left;
-  width: 20%; }
-  .footer-navigation ul {
-    list-style: none;
-    margin: 0;
-    padding-left: 0;
-    width: 100%;
-    text-align: left; }
-    .footer-navigation ul ul {
-      box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
-      float: left;
-      position: absolute;
-      top: 1.5em;
-      left: -999em;
-      z-index: 99999; }
-      .footer-navigation ul ul ul {
-        left: -999em;
-        top: 0; }
-      .footer-navigation ul ul li:hover > ul {
-        left: 100%; }
-      .footer-navigation ul ul a {
-        width: 200px; }
-    .footer-navigation ul li:hover > ul {
-      left: auto; }
-  .footer-navigation li {
+.footer-container {
+  width: 80%;
+  margin: auto; }
+  .footer-container .copyright p {
+    position: inherit;
     display: inline-block;
-    position: relative; }
-  .footer-navigation a {
+    float: left;
+    width: auto; }
+
+.menu-footer-navigation-container {
+  display: inline-block;
+  float: left;
+  width: auto;
+  text-align: left; }
+  .menu-footer-navigation-container ul {
+    margin: 0; }
+  .menu-footer-navigation-container li {
+    display: inline-block;
+    text-align: left;
+    margin-left: 0.2em; }
+    .menu-footer-navigation-container li :before {
+      content: "// "; }
+  .menu-footer-navigation-container a {
     display: block;
     text-decoration: none; }
 

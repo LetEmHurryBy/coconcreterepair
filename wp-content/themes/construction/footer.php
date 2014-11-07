@@ -11,18 +11,16 @@
 	</div><!-- #content -->
 
 		<footer id="colophon" class="site-footer" role="contentinfo">
-			<div class"row">
+			<div class="footer-container">
 				
-				<nav class="footer-navigation">
-					<?php wp_nav_menu( array( 'theme_location' => 'footer' ) ); ?>	
-				</nav>
-				<div class="coppyright">				
+				<div class="copyright">				
 					<p> Copyright &copy; <?php echo date("Y"); ?> <?php bloginfo ('name'); ?> All Rights Reserved.</p>
 				</div>
-				<nav class="social-navigation">
-					<?php wp_nav_menu( array( 'theme_location' => 'social' ) ); ?>
-					test
-				</nav>
+
+				
+				<?php wp_nav_menu( array( 'theme_location' => 'footer' ) ); ?>	
+				
+				<?php wp_nav_menu( array( 'theme_location' => 'social' ) ); ?>
 				
 			</div>
 		</footer><!-- #colophon -->
