@@ -11,7 +11,7 @@ function resizeDiv() {
 
     // Your Styles
     $('.hero-section').css({'height': vph / 2 + 'px'})
-    @include media($tablet) {$('.home-feat-logo img').css({'width': vpw / 2 + 'px'})};
+
 
 
     $('.your style').css({'height': vph * 2 + 'px'}); // Setting the Height of a class equal to the viewport height divided by 2
