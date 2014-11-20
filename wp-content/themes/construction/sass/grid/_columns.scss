@@ -4,7 +4,7 @@
   box-sizing: border-box;
   padding: 0 $grid_padding;
   margin: 0 $grid_gutter 0 0;
-  border: 5px solid red;
+  border: none;
 
   &:last-of-type { margin-right: 0; }
 }

@@ -52,7 +52,7 @@ get_header(); ?>
 								<p><?php the_field('about_page_profile_description');?></p>
 							</div>
 							<div class="column-half">
-								<img src="<?php the_field('about_page_profile_image'); ?>" width="400" height="400">;
+								<img src="<?php the_field('about_page_profile_image'); ?>" width="400" height="400">
 							</div>
 						</div>
 											
