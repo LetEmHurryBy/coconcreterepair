@@ -11,6 +11,8 @@ function resizeDiv() {
 
     // Your Styles
     $('.hero-section').css({'height': vph / 2 + 'px'})
+    
+
 
 
 

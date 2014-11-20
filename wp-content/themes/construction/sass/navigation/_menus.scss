@@ -1,3 +1,11 @@
+.site-header {
+	background-color: $color__footer-background;
+	p {
+		color: white;
+	}
+
+}
+
 .main-navigation {
 	clear: both;
 	display: block;
@@ -32,6 +40,7 @@
 
 			a {
 				width: 200px;
+				
 			}
 
 			:hover > a {
@@ -55,6 +64,8 @@
 	a {
 		display: block;
 		text-decoration: none;
+		color: white;
+
 	}
 
 	.current_page_item > a,
